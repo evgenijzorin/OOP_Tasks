@@ -87,6 +87,7 @@ namespace Lesson_5
       // Сложение
       public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
          {
+         if (r1 is null || r2 is null) return null;
          //if (r1 == null || r2 == null) return null;
          // Найти наименьшее общее кратное для знаменателя
          double nok = MathHelper.Nok(r1.Denominator, r2.Denominator);
@@ -109,6 +110,7 @@ namespace Lesson_5
       // Вычетание
       public static RationalNumber operator -(RationalNumber r1, RationalNumber r2)
          {
+         if (r1 is null || r2 is null) return null;
          //if (r1 == null || r2 == null) return null;
          // Найти наименьшее общее кратное для знаменателя
          double nok = MathHelper.Nok(r1.Denominator, r2.Denominator);
@@ -130,30 +132,34 @@ namespace Lesson_5
       // Инкремент
       public static RationalNumber operator ++(RationalNumber r1)
          {
+         if (r1 is null) return null;
          return new RationalNumber((int)(r1.Numerator + r1.Denominator), r1.Denominator);
          }
       public static RationalNumber operator --(RationalNumber r1)
-         {         
+         {
+         if (r1 is null) return null;
          return new RationalNumber((int)(r1.Numerator - r1.Denominator), r1.Denominator);
          }
 
       //Деление
       public static RationalNumber operator /(RationalNumber r1, RationalNumber r2)
          {
+         if (r1 is null || r2 is null) return null;
          return new RationalNumber((int)(r1.Numerator * r2.Denominator), r2.Numerator * r1.Denominator);
          }
       //Умножение
       public static RationalNumber operator *(RationalNumber r1, RationalNumber r2)
          {
+         if (r1 is null || r2 is null) return null;
          return new RationalNumber((int)(r1.Numerator * r2.Numerator), r2.Denominator * r1.Denominator);
          }
       // Операторы преобразования типов
       public static implicit operator double(RationalNumber rn)
-         {
+         {         
          return rn.Numerator;
          }
       public static explicit operator float(RationalNumber rn)
-         {
+         {         
          return (float)rn.Denominator;
          }
 
