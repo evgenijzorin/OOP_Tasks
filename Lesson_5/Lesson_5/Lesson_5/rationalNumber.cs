@@ -31,13 +31,11 @@ namespace Lesson_5
       // 1.Перегрузка операторов
       // Равенство
       public static bool operator ==(RationalNumber r1, RationalNumber r2)
-         {
-         //if (r1 == null || r2 == null) return false;
+         {         
          return (r1.Numerator == r2.Numerator && r2.Denominator == r2.Denominator);
          }
       public static bool operator !=(RationalNumber r1, RationalNumber r2)
-         {
-         //if (r1 == null || r2 == null) return false;
+         {         
          return (! (r1.Numerator == r2.Numerator && r1.Denominator == r2.Denominator));
          }
       // Переопределение методов из object. Необходимо для полной одинаковой работы методов.
@@ -87,8 +85,7 @@ namespace Lesson_5
       // Сложение
       public static RationalNumber operator +(RationalNumber r1, RationalNumber r2)
          {
-         if (r1 is null || r2 is null) return null;
-         //if (r1 == null || r2 == null) return null;
+         if (r1 is null || r2 is null) return null;         
          // Найти наименьшее общее кратное для знаменателя
          double nok = MathHelper.Nok(r1.Denominator, r2.Denominator);
          // Привести 
@@ -110,8 +107,7 @@ namespace Lesson_5
       // Вычетание
       public static RationalNumber operator -(RationalNumber r1, RationalNumber r2)
          {
-         if (r1 is null || r2 is null) return null;
-         //if (r1 == null || r2 == null) return null;
+         if (r1 is null || r2 is null) return null;         
          // Найти наименьшее общее кратное для знаменателя
          double nok = MathHelper.Nok(r1.Denominator, r2.Denominator);
          // Привести 
