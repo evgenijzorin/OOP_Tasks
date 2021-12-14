@@ -1,0 +1,16 @@
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\bin\Debug\net5.0\Task_2.exe
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\bin\Debug\net5.0\Task_2.deps.json
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\bin\Debug\net5.0\Task_2.runtimeconfig.json
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\bin\Debug\net5.0\Task_2.runtimeconfig.dev.json
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\bin\Debug\net5.0\Task_2.dll
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\bin\Debug\net5.0\ref\Task_2.dll
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\bin\Debug\net5.0\Task_2.pdb
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.AssemblyInfoInputs.cache
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.AssemblyInfo.cs
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.csproj.CoreCompileInputs.cache
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.dll
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\ref\Task_2.dll
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.pdb
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.genruntimeconfig.cache
+D:\1. Рабочий кабинет\2. Обучение GB\OOP_Tasks\Lesson_3\Task_2\obj\Debug\net5.0\Task_2.csproj.AssemblyReference.cache
