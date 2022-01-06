@@ -51,13 +51,6 @@ namespace ConsoleFileManager
                 }
             }
             #endregion
-
-
-
-
-
-
-
         }
     }
 }
